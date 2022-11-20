@@ -26,7 +26,7 @@ const ColorButton = ({ colorCode, label }: { colorCode: string, label: string })
     <Button
       onClick={copyToClipboard}
       variant='link'
-      iconSpacing='1rem'
+      iconSpacing='.5rem'
       colorScheme='blue'
       aria-label={`Copy ${label}`}
       leftIcon={<MdContentCopy />}>
