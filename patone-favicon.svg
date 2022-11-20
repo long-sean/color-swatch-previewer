@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" id="Layer_1" x="0" y="0" version="1.1" viewBox="0 0 960 960">
+  <style>
+    .st0{fill:#fff}
+  </style>
+  <path d="M362 246.4h188.2v658H362z" class="st0" transform="rotate(-71.88 456.07532199 575.40582581)"/>
+  <path fill="#8cd9ed" d="M206.6 477.6h148v80.5h-148z" transform="rotate(-71.88 280.55074812 517.89937443)"/>
+  <path fill="#61c3e5" d="M312.3 512.4h148v80.5h-148z" transform="rotate(-71.88 386.31667458 552.60962624)"/>
+  <path fill="#40acdb" d="M418.1 547h148v80.5h-148z" transform="rotate(-71.88 492.1135914 587.22502575)"/>
+  <path fill="#218fcc" d="M523.8 581.6h148v80.5h-148z" transform="rotate(-71.88 597.81548002 621.80909694)"/>
+  <path fill="#0071bc" d="M629.6 616.2h148v80.5h-148z" transform="rotate(-71.88 703.61258478 656.42452747)"/>
+  <path d="M420.4 138.3h188.2v658H420.4z" class="st0" transform="matrix(.02614 -.9997 .9997 .02614 33.9128 969.45)"/>
+  <path fill="#a5d35e" d="M255.9 422.2h148v80.5h-148z" transform="matrix(.02614 -.9997 .9997 .02614 -141.0177 780.0846)"/>
+  <path fill="#8cc63f" d="M367.2 425.1h148v80.5h-148z" transform="matrix(.02614 -.9997 .9997 .02614 -35.5226 894.1772)"/>
+  <path fill="#79ad27" d="M478.4 428h148v80.5h-148z" transform="matrix(.02614 -.9997 .9997 .02614 69.8776 1008.1674)"/>
+  <path fill="#70a012" d="M589.7 430.9h148v80.5h-148z" transform="matrix(.02614 -.9997 .9997 .02614 175.3728 1122.2601)"/>
+  <path fill="#668e03" d="M700.9 433.8h148v80.5h-148z" transform="matrix(.02614 -.9997 .9997 .02614 280.7731 1236.2502)"/>
+  <path d="M139 267.9h658v188.2H139z" class="st0" transform="rotate(-13.663 468.00086745 361.9962936)"/>
+  <path fill="#f2be79" d="M248.3 331.6h80.5v148h-80.5z" transform="rotate(-13.663 288.54821507 405.59404948)"/>
+  <path fill="#fbb03b" d="M356.4 305.3h80.5v148h-80.5z" transform="rotate(-13.663 396.64302094 379.30100547)"/>
+  <path fill="#f9a12d" d="M464.6 279h80.5v148h-80.5z" transform="rotate(-13.663 504.8354702 352.98452077)"/>
+  <path fill="#f9941c" d="M572.7 252.8h80.5v148h-80.5z" transform="rotate(-13.663 612.95418415 326.7887528)"/>
+  <path fill="#ef870a" d="M680.8 226.5h80.5v148h-80.5z" transform="rotate(-13.663 721.0494074 300.4957588)"/>
+</svg>
