@@ -1,15 +1,25 @@
 import { useCallback } from "react";
-import { Button } from "@chakra-ui/react";
+import { Button, useToast } from "@chakra-ui/react";
 import { MdContentCopy } from "react-icons/md";
 
+
 const ColorButton = ({ colorCode, label }: { colorCode: string, label: string }) => {
-  const copyToClipboard = useCallback(async () => {
+  const toast = useToast();
+  const copyToClipboard = useCallback(() => {
+    let result: TryCopyToClipboard;
     try {
-      await navigator.clipboard.writeText(colorCode);
-      console.log(`Copied '${colorCode}' to clipboard`);
+      navigator.clipboard.writeText(colorCode);
+      result = { status: "success", message: `Copied ${colorCode} to clipboard` }
     } catch (err) {
       console.error('Failed to copy: ', err);
+      result = { status: "error", message: 'Failed to copy to clipboard' }
     }
+    toast({
+      title: result.message,
+      status: result.status,
+      duration: 2000,
+      isClosable: true
+    })
   }, [colorCode]);
 
   return (
